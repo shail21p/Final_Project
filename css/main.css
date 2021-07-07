@@ -1,0 +1,95 @@
+.navbar-brand{
+    font-weight:bold;
+    font-size:130%;
+    padding-left:2px;
+}
+
+img{
+    padding:0 1em;
+    margin:1px;
+}
+header{
+    border-bottom: black solid 3px;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+}
+
+body{
+    background:#f9c4cd;
+
+}
+body::before {
+    content:"";
+    background:#f9c4cd;
+    background-image:url(../images/background-img.png);
+    background-image:url(../images/background-img.png),radial-gradient(circle,#f9c4cd,#f69ba0);
+    background-repeat: no-repeat;
+    background-size:40%;
+    background-position-x:400px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    opacity:0.3;
+}
+
+#card_1{
+    background:#f9c4cd;
+    float:right;
+    top:450px;
+}
+
+
+#card_2{
+    background:#f9c4cd;
+    float:left;
+    top:110px;
+}
+h1{
+    position:relative;
+    padding:5px;
+    margin:5px;
+    color:#de3f28;
+}
+h2{
+    position:center;
+    padding:5px;
+    color:#500e10;
+
+}
+h3{
+    position:center;
+    float:right;
+    padding:5px;
+    color:#981d26;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
