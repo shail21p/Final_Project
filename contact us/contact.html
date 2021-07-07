@@ -8,6 +8,8 @@
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
           crossorigin="anonymous">
     <link href="../css/main.css" rel="stylesheet">
+    <link href="contact.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/favicon.ico">
 </head>
 <body>
 <div class="container-fluid">
@@ -18,35 +20,39 @@
                     col-12">
 
             <!-- Brand -->
-            <a class="navbar-brand" href="#">Logo</a>
+            <img src="../images/cookbook.jpg" height="90" alt="the cook book logo">
+            <a class="navbar-brand" href="../index.html">The Cook Book</a><br>
             <!-- Responsive Button for the smaller menu -->
             <button class="navbar-toggler" type="button"
                     data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <!-- Links -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link 1</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link 2</a>
-                    </li>
-                    <!-- Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
-                           data-toggle="dropdown">
-                            Dropdown link
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Link 1</a>
-                            <a class="dropdown-item" href="#">Link 2</a>
-                            <a class="dropdown-item" href="#">Link 3</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+            <ul class="navbar-nav">
+                <!-- Links -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../About us/About_us.html">About Us</a>
+                </li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                       data-toggle="dropdown">
+                        Recipes
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../Recipes/indian_recipes.html">Indian Recipes</a>
+                        <a class="dropdown-item" href="../Recipes/mexican_recipes.html">Mexican Recipes</a>
+                        <a class="dropdown-item" href="#">Chinese Recipes</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../your-recipes/your_recipes.html">Your Recipes</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+            </ul>
         </nav>
 
     </div>
@@ -58,30 +64,42 @@
                 <input type="text" class="form-control" id="firstname"
                        placeholder="First name" name="firstname">
             </div>
+            <br>
             <div class="form-group">
                 <label for="lastname">Last Name:</label>
                 <input type="text" class="form-control" id="lastname"
                        placeholder="Last name" name="lastname">
             </div>
+            <br>
             <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="email" class="form-control" id="email"
                        placeholder="Enter email" name="email">
             </div>
+            <br>
             <div class="form-group form-check">
                 <label class="form-check-label">
                     <input class="form-check-input"
-                           type="checkbox" name="subscribe"> Subscribe
+                           type="checkbox" name="subscribe"> Remember me.
                 </label>
+                <br>
             </div>
+            <br>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
     </div>
+    <div class="form-text">
+        <label for="exampleFormControlTextarea1">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+
+
+    <h4>Helpline: 1-800-xxx-xxxx</h4>
     <footer class="footer page-footer font-small ">
         <div class="container">
             <div class="row">
-                <span class="text-muted">&copy; Art Hendela, 2020 |  Terms Of Use  |  Privacy Statement</span>
+                <span class="text-muted">&copy; Shail Patel, 2021 |  Terms Of Use  |  Privacy Statement</span>
             </div>
         </div>
     </footer>
