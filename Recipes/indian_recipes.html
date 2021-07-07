@@ -8,7 +8,6 @@
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
         crossorigin="anonymous">
-  <link href="about_us.css" rel="stylesheet">
   <link href="../css/main.css" rel="stylesheet">
   <link rel="shortcut icon" href="../images/favicon.ico">
 </head>
@@ -40,8 +39,8 @@
             Recipes
           </a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="../Recipes/indian_recipes.html">Indian Recipes</a>
-            <a class="dropdown-item" href="../Recipes/mexican_recipes.html">Mexican Recipes</a>
+            <a class="dropdown-item" href="./indian_recipes.html">Indian Recipes</a>
+            <a class="dropdown-item" href="./mexican_recipes.html">Mexican Recipes</a>
             <a class="dropdown-item" href="#">Chinese Recipes</a>
           </div>
         </li>
@@ -50,44 +49,21 @@
           <a class="nav-link" href="../your-recipes/your_recipes.html">Your Recipes</a>
         </li>
 
+
         <li class="nav-item">
           <a class="nav-link" href="#">Contact us</a>
         </li>
       </ul>
     </nav>
   </div>
-  <div class="slideshow" role="listbox" style="max-width:500px; max-height:500px !important;">
-    <img class="mySlides" src="../images/america_food.jpg">
-    <img class="mySlides" src="../images/indian_food.jpg">
-    <img class="mySlides" src="../images/chinese_food.jpg">
-  </div>
-  <br/>
+  <img src="../images/subzi.jpg" width="500" height="500">
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id elit ac tortor egestas consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec quis mollis justo. Sed diam lectus, semper in nisi at, tempus tristique dui. Nam rhoncus nisi ut mi laoreet, fermentum convallis arcu vestibulum. Praesent maximus mi vitae arcu lacinia consectetur. Nullam sagittis tortor ac venenatis pharetra. Curabitur massa velit, venenatis at varius sit amet, accumsan at nibh. Donec ante lorem, facilisis et mattis ac, pellentesque in velit. Nullam posuere, dui eget lacinia ornare, libero dui sodales mauris, laoreet pharetra arcu tortor sed neque. Proin porttitor lorem quis convallis dictum. Sed aliquet fringilla tristique. Cras vitae purus varius, sollicitudin elit vel, eleifend nibh. Aenean pretium libero lacus, ut vehicula tortor euismod interdum. Aenean a varius est.
+  </p>
+  <p>
+    In congue nisl id nisi elementum feugiat. Cras turpis tellus, porttitor eget laoreet laoreet, dapibus vel eros. Maecenas nulla velit, mattis eget justo sed, rutrum aliquet ex. Mauris bibendum viverra commodo. Fusce imperdiet convallis tincidunt. Donec quam lectus, porttitor vitae ligula et, euismod scelerisque erat. Suspendisse ultrices maximus nisi quis pulvinar. Nulla vel nisl vitae tortor placerat aliquet. Nunc porta placerat tortor, eget eleifend turpis faucibus sit amet. In blandit, mauris eget accumsan feugiat, nisi ipsum hendrerit dui, sit amet malesuada mi arcu vel nulla. Nullam molestie enim a laoreet vehicula.
+  </p>
 
-
-  <script>
-    var myIndex = 0;
-    carousel();
-
-    function carousel() {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      myIndex++;
-      if (myIndex > x.length) {myIndex = 1}
-      x[myIndex-1].style.display = "block";
-      setTimeout(carousel, 5000); // Change image every 5 seconds
-    }
-  </script>
-  <br/>
-  <div id="text">
-  <h2> About Us</h2>
-  <p>We here at the cook book wish to build a community, with our professional chefs to our budding new comers. The site and community encourages everyone who is either a pro at cooking, or just trying it for the fun of it.</p>
-  <p>Our goal here is to serve, and share the best of the best we can find. if you wish to submit a dish, simply <a href="#">click here</a> and start prepping up your tooks and cranking up the heat!!</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id elit ac tortor egestas consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec quis mollis justo. Sed diam lectus, semper in nisi at, tempus tristique dui. Nam rhoncus nisi ut mi laoreet, fermentum convallis arcu vestibulum. Praesent maximus mi vitae arcu lacinia consectetur. Nullam sagittis tortor ac venenatis pharetra. Curabitur massa velit, venenatis at varius sit amet, accumsan at nibh. Donec ante lorem, facilisis et mattis ac, pellentesque in velit. Nullam posuere, dui eget lacinia ornare, libero dui sodales mauris, laoreet pharetra arcu tortor sed neque. Proin porttitor lorem quis convallis dictum. Sed aliquet fringilla tristique. Cras vitae purus varius, sollicitudin elit vel, eleifend nibh. Aenean pretium libero lacus, ut vehicula tortor euismod interdum. Aenean a varius est.</p>
-  </div>
-  <div>
 
 
     <footer class="footer page-footer font-small ">
@@ -109,6 +85,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
-
 </body>
 </html>

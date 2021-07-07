@@ -9,8 +9,8 @@
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
           crossorigin="anonymous">
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="../css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/favicon.ico">
 </head>
 <body>
 <div class="container-fluid">
@@ -21,8 +21,8 @@
                     col-12">
 
             <!-- Brand -->
-            <img src="images/cookbook.jpg" height="90" alt="the cook book logo">
-            <a class="navbar-brand" href="index.html">The Cook Book</a><br>
+            <img src="../images/cookbook.jpg" height="90" alt="the cook book logo">
+            <a class="navbar-brand" href="../index.html">The Cook Book</a><br>
             <!-- Responsive Button for the smaller menu -->
             <button class="navbar-toggler" type="button"
                     data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -31,7 +31,7 @@
             <ul class="navbar-nav">
                 <!-- Links -->
                 <li class="nav-item">
-                    <a class="nav-link" href="About us/About_us.html">About Us</a>
+                    <a class="nav-link" href="../About us/About_us.html">About Us</a>
                 </li>
                 <!-- Dropdown -->
                 <li class="nav-item dropdown">
@@ -40,14 +40,14 @@
                         Recipes
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="./Recipes/indian_recipes.html">Indian Recipes</a>
-                        <a class="dropdown-item" href="./Recipes/mexican_recipes.html">Mexican Recipes</a>
+                        <a class="dropdown-item" href="../Recipes/indian_recipes.html">Indian Recipes</a>
+                        <a class="dropdown-item" href="../Recipes/mexican_recipes.html">Mexican Recipes</a>
                         <a class="dropdown-item" href="#">Chinese Recipes</a>
                     </div>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="./your-recipes/your_recipes.html">Your Recipes</a>
+                    <a class="nav-link" href="your_recipes.html">Your Recipes</a>
                 </li>
 
 
@@ -58,40 +58,39 @@
         </nav>
     </div>
 
-    <h1 id="banner" class="text-center"> Welcome To the Cook Book!!</h1>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Indian</label><br>
+            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+            <label class="form-check-label" for="exampleCheck2">Mexican</label><br>
+            <input type="checkbox" class="form-check-input" id="exampleCheck3">
+            <label class="form-check-label" for="exampleCheck3">Chinese</label><br>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
 
-    <div id="section_1">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./images/indian_food.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Indian Recipes</h5>
-                <p class="card-text">Check out our indian food today</p>
-                <a href="./Recipes/indian_recipes.html" class="btn btn-primary">Indian recipes</a>
+
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Shail Patel 2021|  Terms Of Use  |  Privacy Statement</span>
             </div>
         </div>
-
-    </div>
-
-    <div id="section_2">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./images/mexican_food.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Mexican Recipes</h5>
-                <p class="card-text">Check out our Mexican food today</p>
-                <a href="./Recipes/mexican_recipes.html" class="btn btn-primary">Mexican recipes</a>
-            </div>
-        </div>
-    </div>
-
-        <h2 id="s_text1">Try out our amazing Recipes for yourself Today!!</h2>
-    <br>
-    <div id="s_text2">
-        <h3> Or better off try your hand at some of our budding home recipes.</h3><br>
-        <h3> Have a chance to create your own epic Delights.</h3>
-    </div>
-
-
-
+    </footer>
 
 
 
@@ -105,11 +104,4 @@
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
 </body>
-<footer class="footer page-footer font-small ">
-    <div class="container">
-        <div class="row">
-            <span class="text-muted">&copy; Shail Patel 2021|  Terms Of Use  |  Privacy Statement</span>
-        </div>
-    </div>
-</footer>
 </html>
